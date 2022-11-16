@@ -1,0 +1,47 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "devlead",
+    "password": "1234"
+}
+
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "dev01",
+    "password": "1234"
+}
+
+
+###
+
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczNTMxMjhkYzczOTEzN2RkZTc4YjMiLCJpYXQiOjE2Njg1MDIyOTB9.I4e46zxCxQ2Sxz7PbiGI8rhOv_un9W3fyzE8M6Z6dC4
+
+{
+    "title": "react",
+    "description": "abc",
+    "url": "react.com",
+    "status": ""
+}
+
+###
+GET http://localhost:5000/api/posts
+Authorization: ok eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczMTgwZDE3Y2MzNDZkZGE1NGYxZDYiLCJpYXQiOjE2Njg1MDQ0MTR9.1EyFUuxGmm9Qw2B7MLXUFm1F6_sjSdywsrGmNUkkF-w
+
+###
+PUT http://localhost:5000/api/posts/637340cf4736a5426f1521e2
+Content-Type: application/json
+Authorization: ok eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczMTgwZDE3Y2MzNDZkZGE1NGYxZDYiLCJpYXQiOjE2Njg1MDc0Mzh9.7UwCwFpbiU10u5EZnhHA6ZeXb-P6OpGtOFTh75boVeo
+
+{
+    "title": "udpateCCC",
+    "description": "abcCCC",
+    "url": "reactTTT.com",
+    "status": "LEARNING"
+}
