@@ -32,16 +32,21 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczN
 
 ###
 GET http://localhost:5000/api/posts
-Authorization: ok eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczMTgwZDE3Y2MzNDZkZGE1NGYxZDYiLCJpYXQiOjE2Njg1MDQ0MTR9.1EyFUuxGmm9Qw2B7MLXUFm1F6_sjSdywsrGmNUkkF-w
+Authorization: ok eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczMTgwZDE3Y2MzNDZkZGE1NGYxZDYiLCJpYXQiOjE2Njg1NjA3MjB9.QaZQlN1fcGsm1VFOWabg6LITa-iUMEuxPSHcEJY3jHE
 
 ###
 PUT http://localhost:5000/api/posts/637340cf4736a5426f1521e2
 Content-Type: application/json
-Authorization: ok eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczMTgwZDE3Y2MzNDZkZGE1NGYxZDYiLCJpYXQiOjE2Njg1MDc0Mzh9.7UwCwFpbiU10u5EZnhHA6ZeXb-P6OpGtOFTh75boVeo
+Authorization: ok eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczMTgwZDE3Y2MzNDZkZGE1NGYxZDYiLCJpYXQiOjE2Njg1NjA3MjB9.QaZQlN1fcGsm1VFOWabg6LITa-iUMEuxPSHcEJY3jHE
 
 {
-    "title": "udpateCCC",
-    "description": "abcCCC",
-    "url": "reactTTT.com",
+    "title": "updassstssse11",
+    "description": "abc1",
+    "url": "react1.com",
     "status": "LEARNING"
 }
+
+###
+
+DELETE http://localhost:5000/api/posts/637340cf4736a5426f1521e2
+Authorization: ok eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzczMTgwZDE3Y2MzNDZkZGE1NGYxZDYiLCJpYXQiOjE2Njg1NjA3MjB9.QaZQlN1fcGsm1VFOWabg6LITa-iUMEuxPSHcEJY3jHE
