@@ -5,7 +5,6 @@ import Register from '../components/auth/Register'
 const Auth = ({ authRouter }) => {
     let body = (
         <>
-            <h2>form</h2>
             {
                 authRouter === 'login' && <Login />
             }
